@@ -22,9 +22,15 @@ public class CalculadoraController {
 	@GetMapping("/calcular")
 	public ResponseEntity<Valor> getCalculo(@RequestBody Valor valor) {
 		
-		Long buscaResultado = buscaResultado(valor.getValor1(), valor.getValor2(), valor.getTipo());
-		valor.setResultado(buscaResultado);
+		try {
+			Long buscaResultado = buscaResultado(valor.getValor1(), valor.getValor2(), valor.getTipo());
+			valor.setResultado(buscaResultado);
+			
+		} catch(Exception e) {
+			System.out.println(e);
+		}
 		
+	
 		return ResponseEntity.ok(valor);
 	}
 
