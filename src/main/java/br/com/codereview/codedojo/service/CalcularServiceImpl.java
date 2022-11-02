@@ -3,7 +3,7 @@ package br.com.codereview.codedojo.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CalcularServiceImpl {
+public class CalcularServiceImpl implements ICalcularService {
 
 	public Long calcular(Long valor1, Long valor2, String tipo) {
 

@@ -39,7 +39,7 @@ public class CalculadoraController {
 		return calcular;
 	}
 	
-	// deve subtrair o valor
+	// deve subtrair o valor para retorno do usuário, fazendo com que ele consiga olhar e seguir com isso.
 	private long subtrai(long valor1, long valor2) {
 		return valor1 - valor2;
 	}
