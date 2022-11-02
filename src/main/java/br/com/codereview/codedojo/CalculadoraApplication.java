@@ -1,4 +1,4 @@
-package br.com.calculadora;
+package br.com.codereview.codedojo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

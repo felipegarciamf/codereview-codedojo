@@ -8,8 +8,8 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.calculadora</groupId>
-	<artifactId>calculadora</artifactId>
+	<groupId>br.com.codereview-codedojo</groupId>
+	<artifactId>codereview-codedojo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>calculadora</name>
 	<description>auth server</description>
