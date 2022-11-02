@@ -14,13 +14,16 @@ public class CalcularServiceImpl implements ICalcularService {
 				return valor1 - valor2;
 			} else if (tipo == "+") {
 				resultado = valor1 + valor2;
-			} else if (tipo == "/") {
-				return valor1 / valor2;
+			} else if (tipo.equals("/") ) {
+				if(valor1 > 0 || valor2 > 0) {
+					return valor1 / valor2;
+				}
 			} else {
 				resultado = valor1 * valor2;
 			}
 
 		} catch (Exception e) {
+			System.out.println(e);
 			return resultado;
 		}
 		return resultado;
