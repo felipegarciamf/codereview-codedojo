@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.codereview.codedojo.service.CalcularServiceImpl;
+import br.com.codereview.codedojo.service.Valor;
 
 @RestController
 @RequestMapping("/calculadora")

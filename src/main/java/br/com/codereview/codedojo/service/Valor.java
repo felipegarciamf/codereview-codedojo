@@ -1,4 +1,4 @@
-package br.com.codereview.codedojo.controller;
+package br.com.codereview.codedojo.service;
 
 public class Valor {
 

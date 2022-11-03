@@ -6,6 +6,8 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import br.com.codereview.codedojo.service.Valor;
+
 class ValorTest {
 
 	@BeforeEach
